@@ -30,7 +30,8 @@ padding: 0 10px;
 border-radius:50%;
 }
   .footer{
-    grid-area: ft;  
+    grid-area: ft;
+    text-align:center;
   }
   .sidebar{
     grid-area: sd;
