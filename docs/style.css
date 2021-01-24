@@ -13,6 +13,7 @@
 .nav{
   display:flex;
   justify-content:space-between;
+  align-items:center;
 }
 .navlinks{
 display:flex;
@@ -23,7 +24,6 @@ list-style-type:none;
 padding: 0 10px;
 }
   .header{
-    /* row start/column start/ row end/ column end */
     grid-area:hd;
   }
 .headerPhoto{
