@@ -31,7 +31,7 @@ border-radius:75%;
   .sidebar{
     grid-area: sd;
   }
-  .content{
+  .main{
     grid-area: main;
   }
 /* If Screen Is Wide Enough */
