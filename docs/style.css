@@ -10,10 +10,14 @@
   border: 2px solid yellow;
 }
 
-.box{
-    border: 1px solid red;
-    background: #F8FA9D;
-    }
+.nav{
+  display:flex;
+  align-items:center;
+}
+.navlink{
+list-style-type:none;
+padding: 0 10px;
+}
   .header{
     /* row start/column start/ row end/ column end */
     grid-area:hd;
@@ -35,7 +39,7 @@
       grid-template-rows: 250px 600px;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
-      "sd sd main main main main main main"
+      "main main main main main sd sd sd"
       "ft ft ft ft ft ft ft ft";
       border: 2px solid red;
   }
