@@ -42,11 +42,7 @@ border-radius:50%;
 .footerPhoto{
 opacity:0.5;
 }
-.subscribe{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-}
+
 /* If Screen Is Wide Enough */
 @media(min-width:900px) {
 .main-container{
