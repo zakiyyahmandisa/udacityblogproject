@@ -38,6 +38,9 @@ border-radius:75%;
   .main{
     grid-area: main;
   }
+.footerPhoto{
+opacity:0.5;
+}
 /* If Screen Is Wide Enough */
 @media(min-width:900px) {
 .main-container{
