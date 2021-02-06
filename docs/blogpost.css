@@ -4,7 +4,7 @@
   grid-template-rows: 250px 600px;
   grid-template-areas: 
   "hd"
-  "sd"
+  "sh"
   "main"
   "ft";
   border: 2px solid yellow;
