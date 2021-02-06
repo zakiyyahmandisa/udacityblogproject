@@ -1,1 +1,59 @@
-<h1> homepage </h1>
+.main-container{
+  display:grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 250px 600px;
+  grid-template-areas: 
+  "hd"
+  "sd"
+  "main"
+  "ft";
+  border: 2px solid yellow;
+}
+
+.nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.navlinks{
+display:flex;
+align-items:center;
+}
+.navlink{
+list-style-type:none;
+padding: 0 10px;
+}
+  .header{
+    grid-area:hd;
+  }
+.headerPhoto{
+border-radius:50%;
+}
+  .footer{
+    grid-area: ft;
+    justify-content:center;
+    text-align:center;
+  }
+  .sidebar{
+    grid-area: sd;
+  }
+  .main{
+    grid-area: main;
+  }
+.footerPhoto{
+opacity:0.5;
+}
+
+/* If Screen Is Wide Enough */
+@media(min-width:900px) {
+.main-container{
+      display:grid;
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 250px 600px;
+      grid-template-areas: 
+      "hd hd hd hd hd hd hd hd"
+      "main main main main main sd sd sd"
+      "ft ft ft ft ft ft ft ft";
+      border: 2px solid red;
+  }
+}
