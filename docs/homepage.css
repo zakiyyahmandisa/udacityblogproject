@@ -8,7 +8,10 @@
   "main"
   "ft";
 }
-
+.figure{
+<img src="firststore.jpg" alt="TJ Store">
+<figcaption>The first TJs location in 1967 in Pasadena, California. </figcaption>
+}
 .nav{
   display:flex;
   justify-content:space-between;
