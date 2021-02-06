@@ -23,7 +23,7 @@ align-items:center;
 list-style-type:none;
 padding: 0 10px;
 }
-  .header{
+.header{
     grid-area:hd;
   }
 .headerPhoto{
@@ -34,15 +34,12 @@ border-radius:50%;
     justify-content:center;
     text-align:center;
   }
-  .sidebar{
-    grid-area: sd;
+  .subheader{
+    grid-area: sh;
   }
   .main{
     grid-area: main;
   }
-.footerPhoto{
-opacity:0.5;
-}
 
 /* If Screen Is Wide Enough */
 @media(min-width:900px) {
@@ -52,7 +49,8 @@ opacity:0.5;
       grid-template-rows: 250px 600px;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
-      "sd sd sd main main main main main"
+      "sh sh sh sh sh sh sh sh"
+      "main main main main main main main main"
       "ft ft ft ft ft ft ft ft";
       border: 2px solid red;
   }
