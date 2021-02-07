@@ -24,6 +24,7 @@ padding: 0 10px;
 
   .header{
     grid-area:hd;
+    bgcolor:LightCoral;
   }
 .headerPhoto{
 border-radius:50%;
