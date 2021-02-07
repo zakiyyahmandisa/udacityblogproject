@@ -8,6 +8,7 @@
   "main"
   "ft";
   border: 2px solid green;
+  background-color:DarkSeaGreen;
 }
 
 .nav{
@@ -53,5 +54,6 @@ border-radius:50%;
       "main main main main main main main main"
       "ft ft ft ft ft ft ft ft";
       border: 2px solid green;
+      background-color:DarkSeaGreen;
   }
 }
