@@ -4,7 +4,7 @@
   grid-template-rows: 250px 600px;
   grid-template-areas: 
   "hd"
-  "sh"
+  "sd"
   "main"
   "ft";
   border: 2px solid green;
@@ -40,14 +40,12 @@ padding: 0 10px;
     justify-content:center;
     text-align:center;
   }
-  .subheader{
-    grid-area: sh;
-  }
+ 
   .main{
     grid-area: main;
   }
 .sidebar{
-  grid-area: sb;
+  grid-area: sd;
 }
 
 /* If Screen Is Wide Enough */
@@ -58,8 +56,7 @@ padding: 0 10px;
       grid-template-rows: 250px 600px;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
-      "sh sh sh sh sh sh sh sh"
-      "sb sb sb main main main main main"
+      "sd sd sd main main main main main"
       "ft ft ft ft ft ft ft ft";
       border: 2px solid green;
       background-color:DarkSeaGreen;
