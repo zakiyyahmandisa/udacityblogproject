@@ -43,6 +43,13 @@ border-radius:50%;
   .main{
     grid-area: main;
   }
+
+<style>
+   .red-text {
+     color: red;
+   }
+ </style>
+
 .footerPhoto{
 opacity:0.5;
 }
