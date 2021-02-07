@@ -44,12 +44,6 @@ border-radius:50%;
      color: maroon;
    }
  
-
-.footerPhoto{
-opacity:0.5;
-}
-
-/* If Screen Is Wide Enough */
 @media(min-width:900px) {
 .main-container{
       display:grid;
