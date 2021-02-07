@@ -44,11 +44,9 @@ border-radius:50%;
     grid-area: main;
   }
 
-<style>
    .red-text {
      color: red;
    }
- </style>
 
 .footerPhoto{
 opacity:0.5;
