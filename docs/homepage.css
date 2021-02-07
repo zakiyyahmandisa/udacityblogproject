@@ -7,7 +7,7 @@
   "sd"
   "main"
   "ft";
-  bgcolor:LightCoral;
+  background-color:LightCoral;
 }
 .nav{
   display:flex;
@@ -59,6 +59,6 @@ border-radius:50%;
       "main main main main main sd sd sd"
       "ft ft ft ft ft ft ft ft";
       border: 2px solid red;
-      bgcolor:LightCoral;
+      background-color:LightCoral;
   }
 }
