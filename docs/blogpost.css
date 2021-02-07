@@ -7,7 +7,7 @@
   "sh"
   "main"
   "ft";
-  border: 2px solid yellow;
+  border: 2px solid green;
 }
 
 .nav{
@@ -52,6 +52,6 @@ border-radius:50%;
       "sh sh sh sh sh sh sh sh"
       "main main main main main main main main"
       "ft ft ft ft ft ft ft ft";
-      border: 2px solid red;
+      border: 2px solid green;
   }
 }
