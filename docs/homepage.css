@@ -38,10 +38,6 @@ padding: 0 10px;
   .main{
     grid-area: main;
   }
-.card{
-  width:340px;
-  height:283px;
-}
 
    .red-text {
      color: maroon;
