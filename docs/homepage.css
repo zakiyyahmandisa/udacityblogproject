@@ -8,11 +8,6 @@
   "main"
   "ft";
 }
-.figure{
-display:flex;
-align-items:center;
-}
-
 .nav{
   display:flex;
   justify-content:space-between;
@@ -26,6 +21,7 @@ align-items:center;
 list-style-type:none;
 padding: 0 10px;
 }
+
   .header{
     grid-area:hd;
   }
@@ -47,6 +43,7 @@ border-radius:50%;
    .red-text {
      color: maroon;
    }
+ 
 
 .footerPhoto{
 opacity:0.5;
