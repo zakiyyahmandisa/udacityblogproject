@@ -31,6 +31,10 @@ padding: 0 10px;
   display:flex;
   align-items:center;
 }
+.sidebarImage{
+  height:340px;
+  width:283px;
+}
   .footer{
     grid-area: ft;
     justify-content:center;
