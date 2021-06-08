@@ -1,7 +1,7 @@
 .main-container{
       display:grid;
-      grid-template-columns: 600px 600px 600px;
-      grid-template-rows: 500px 1200px;
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 250px 600px;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
       "main main main main main sd sd sd"
@@ -24,31 +24,35 @@ list-style-type:none;
 padding: 0 10px;
 }
 
-  .header{
-    grid-area:hd;
-  }
+.header{
+grid-area:hd;
+}
 
-  .footer{
-    grid-area: ft;
-    justify-content:center;
-    text-align:center;
-  }
-  .sidebar{
-    grid-area: sd;
-  }
-  .main{
-    grid-area: main;
-  }
+.footer{
+ grid-area: ft;
+justify-content:center;
+text-align:center;
+}
 
-   .red-text {
-     color: maroon;
-   }
+.sidebar{
+grid-area: sd;
+}
+ 
+.main{
+grid-area: main;
+}
+
+.red-text {
+color: maroon;
+text-align: center;
+font-size: x-large;
+}
  
 @media(max-width:900px) {
   .main-container{
   display:grid;
-  grid-template-columns: 600px 600px 600px;
-  grid-template-rows: 500px 1200px;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 250px 600px;
   grid-template-areas: 
   "hd"
   "sd"
