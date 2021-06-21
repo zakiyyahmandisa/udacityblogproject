@@ -1,83 +1,82 @@
-.main-container{
-  display:grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 250px 600px;
-  grid-template-areas: 
-  "hd hd hd hd hd hd hd hd"
-  "sd sd main main main main main main"
-  "ft ft ft ft ft ft ft ft";
-  border: 2px solid green;
-  background-color:DarkSeaGreen;
+.main-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 600px;
+    grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "sd sd main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+    border: 2px solid green;
+    background-color: DarkSeaGreen;
 }
 
-.nav{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.navlinks{
-display:flex;
-align-items:center;
+.navlinks {
+    display: flex;
+    align-items: center;
 }
-.navlink{
-list-style-type:none;
-padding: 0 10px;
+.navlink {
+    list-style-type: none;
+    padding: 0 10px;
 }
-.header{
-    grid-area:hd;
-  }
-.headerPhoto{
-  display:flex;
-  align-items:center;
-  height: 250px;
-  width: auto;
+.header {
+    grid-area: hd;
 }
-.zaatar{
-  color: green;
+.headerPhoto {
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width: auto;
 }
-.sidebarImage{
-  height:auto;
-  width:250px;
+.zaatar {
+    color: green;
 }
-  .footer{
+.sidebarImage {
+    height: auto;
+    width: 250px;
+}
+.footer {
     grid-area: ft;
-    justify-content:center;
-    
-  }
- 
-.header{
-grid-area: hd;
+    justify-content: center;
 }
 
-footer{
-  grid-area: ft;
-  text-align: center;
+.header {
+    grid-area: hd;
 }
-  .main{
+
+footer {
+    grid-area: ft;
+    text-align: center;
+}
+.main {
     grid-area: main;
-  }
-.sidebar{
-  grid-area: sd;
+}
+.sidebar {
+    grid-area: sd;
 }
 
 /* If Screen Is Wide Enough */
-@media(max-width:900px) {
-.main-container{
-  display:grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 250px 600px;
-  grid-template-areas: 
-  "hd"
-  "sd"
-  "main"
-  "ft";
-  border: 2px solid green;
-  background-color:DarkSeaGreen;
-  }
+@media (max-width: 900px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 250px 600px;
+        grid-template-areas:
+            "hd"
+            "sd"
+            "main"
+            "ft";
+        border: 2px solid green;
+        background-color: DarkSeaGreen;
+    }
 
-.footer{
-    grid-area: ft;
-    justify-content:center;
-    text-align:center;
-  }
+    .footer {
+        grid-area: ft;
+        justify-content: center;
+        text-align: center;
+    }
 }
