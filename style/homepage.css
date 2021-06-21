@@ -1,72 +1,74 @@
-.main-container{
-      display:grid;
-      grid-template-columns: 300px 300px 300px;
-      grid-template-rows: 250px 600px;
-      grid-template-areas: 
-      "hd hd hd hd hd hd hd hd"
-      "main main main main main sd sd sd"
-      "ft ft ft ft ft ft ft ft";
-      border: 2px solid red;
-      background-color:LightCoral;
-  }
-
-.nav{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-}
-.navlinks{
-display:flex;
-align-items:center;
-}
-.navlink{
-list-style-type:none;
-padding: 0 10px;
+.main-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 600px;
+    grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "main main main main main sd sd sd"
+        "ft ft ft ft ft ft ft ft";
+    border: 2px solid red;
+    background-color: LightCoral;
 }
 
-.header{
-grid-area:hd;
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks {
+    display: flex;
+    align-items: center;
+}
+.navlink {
+    list-style-type: none;
+    padding: 0 10px;
 }
 
-.footer{
- grid-area: ft;
-justify-content:center;
-text-align:center;
+.header {
+    grid-area: hd;
 }
 
-.sidebar{
-grid-area: sd;
+.footer {
+    grid-area: ft;
+    justify-content: center;
+    text-align: center;
 }
- 
-.main{
-grid-area: main;
+
+.sidebar {
+    grid-area: sd;
+}
+
+.main {
+    grid-area: main;
 }
 
 .red-text {
-color: maroon;
-text-align: center;
-font-size: x-large;
+    color: maroon;
+    text-align: center;
+    font-size: x-large;
 }
 
 .author {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
 }
 
 .card {
-  padding: 2px 16px;
+    padding: 2px 16px;
 }
- 
-@media(max-width:900px) {
-  .main-container{
-  display:grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 250px 600px;
-  grid-template-areas: 
-  "hd"
-  "sd"
-  "main"
-  "ft";
-  background-color:LightCoral;
+
+@media (max-width: 900px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 250px 600px;
+        grid-template-areas:
+            "hd"
+            "sd"
+            "main"
+            "ft";
+        background-color: LightCoral;
+    }
 }
-}
+
+
